@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+    background-color: #FFFFCC;
+    color: #330033;
+}
+
+#name {
+    padding: inherit;
+    border-style: groove;
+    border-color: #006699;
+    border-width: 2px;
+}
+
+#navbar {
+    border-style: groove;
+    border-color: #006699;
+    border-width: thin;
+}
+
+li {
+    font-size: 16px;
+}
+
+.about {
+    margin: 25px;
+    border-style: groove;
+    border-color: #006699;
+}
+
+h1 {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.one {
+    /* background-color: #FF99FF; */
+    margin: 25px;
+    border-style: groove;
+    border-color: #006699;
+}
+
+#pic {
+    float: left;
+    margin: 10px;
+    border-style: groove;
+    border-color: #006699;
+    margin-bottom: 20px;
+}
+
