@@ -1,20 +1,20 @@
 body {
     font-family: monospace;
-    background-color: #FFFFCC;
+    background-color: rgb(243, 239, 227);
     color: #330033;
 }
 
+
 #name {
     padding: inherit;
-    border-style: groove;
-    border-color: #006699;
     border-width: 2px;
 }
 
 #navbar {
-    border-style: groove;
-    border-color: #006699;
+    /* border-style: solid;
     border-width: thin;
+    border-color: #CCFFFF; */
+    background-color: rgb(236, 229, 201);
 }
 
 li {
@@ -23,8 +23,6 @@ li {
 
 .about {
     margin: 25px;
-    border-style: groove;
-    border-color: #006699;
 }
 
 h1 {
@@ -35,15 +33,41 @@ h1 {
 .one {
     /* background-color: #FF99FF; */
     margin: 25px;
-    border-style: groove;
-    border-color: #006699;
 }
 
 #pic {
     float: left;
-    margin: 10px;
-    border-style: groove;
-    border-color: #006699;
-    margin-bottom: 20px;
+    /* margin: 10px;
+    margin-bottom: 20px; */
 }
 
+
+footer {
+    /* border: solid thin; */
+    text-align: center;
+    /* border-color: #CCFFFF; */
+    background-color: rgb(236, 229, 201);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+/* #name, #navbar, .about, .one, #pic, .col, main, section, footer {
+    border: 3px solid;
+    border-color: #006699;
+} */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.photo {
+    width: 50%;
+    min-width: 300px;
+}
+
+.box {
+    min-width: 400px;
+}

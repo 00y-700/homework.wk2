@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <nav class="navbar navbar-expand-md navbar-light" id="navbar">
-          <a href="#" class="navbar-brand" style="background-color: #6699CC;" id="name">Jeffrey Harding</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" style="background-color: #FFFF99;">
+          <a href="#" class="navbar-brand" style="background-color: #CCFFFF;" id="name">Jeffrey Harding</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" style="background-color: rgb(243, 232, 198);">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarMenu">
@@ -31,22 +31,29 @@
             </ul>
           </div>
       </nav>
-      <div class="row">
-        <div class="col about col-expand-md" >
-          <h1>About Me</h1>
-            
-            <p>
-              <img src="assets/one.jpg" height= 250px; id="pic" alt="face">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloribus temporibus earum, nisi optio aliquam quas, animi esse eos numquam perspiciatis laudantium iusto! Placeat vitae ea necessitatibus ut nostrum facere!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque culpa eveniet magnam rem? Aspernatur alias, voluptatibus culpa accusamus eum esse odio velit nam aliquam. Voluptate repellendus quo pariatur quasi fuga.
-            </p>
-        </div>
-        <div class="col">
+      <section>
+        <div class="row">
+          <div class="col about box card col-expand-md" >
+            <h1>About Me</h1>
+              <article>
+              <figure class="photo">
+                <img src="assets/one.jpg" height= 250px; id="pic" alt="face" class="responsive">
+              </figure>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloribus temporibus earum, nisi optio aliquam quas, animi esse eos numquam perspiciatis laudantium iusto! Placeat vitae ea necessitatibus ut nostrum facere!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque culpa eveniet magnam rem? Aspernatur alias, voluptatibus culpa accusamus eum esse odio velit nam aliquam. Voluptate repellendus quo pariatur quasi fuga.
+              </p>
+              </article>
+          </div>
+          <div class="col about col-expand-md">
+      </section>
 
         </div>
       </div>
-
-    </div>
+      <footer class="col col-expand-md">
+        <h1>What it is</h1>
+      </footer>
+    </main>
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
