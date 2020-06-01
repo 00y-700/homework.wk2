@@ -2,8 +2,8 @@ body {
     font-family: monospace;
     background-color: rgb(243, 239, 227);
     color: #330033;
+    position: relative;
 }
-
 
 #name {
     padding: inherit;
@@ -11,14 +11,11 @@ body {
 }
 
 #navbar {
-    /* border-style: solid;
-    border-width: thin;
-    border-color: #CCFFFF; */
     background-color: rgb(236, 229, 201);
 }
 
 li {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .about {
@@ -35,6 +32,19 @@ h1 {
     margin: 25px;
 }
 
+.title-card {
+    background-color: #ccffff;
+    width: 33%;
+    text-align: center;
+    padding: 1.5%;
+}
+
+#titlecard2 {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 30%;
+}
+
 #pic {
     float: left;
     padding: 5%;
@@ -45,6 +55,7 @@ footer {
     /* border: solid thin; */
     text-align: center;
     /* border-color: #CCFFFF; */
+    height: 50px;
     background-color: rgb(236, 229, 201);
     padding: 10px;
     position: fixed;
@@ -52,17 +63,17 @@ footer {
     z-index: 3;
 }
 
-/* #name, #navbar, .about, .one, #pic, .col, main, section, footer {
-    border: 3px solid;
-    border-color: #006699;
-} */
-
 .responsive {
     width: 100%;
-    height: auto;
-    padding: 2%
+    /* height: auto; */
+    padding: 3%;
 }
 
+.responsive1 {
+    width: 75%;
+    height: auto;
+    padding: 2%;
+}
 .photo {
     width: 50%;
     min-width: 300px;
@@ -78,26 +89,31 @@ footer {
 
 .project-image {
     width: 96%;
-    height: 300px;
+    height: 250px;
     /* border: solid 1px pink; */
     margin: 2%;
+    padding: 2%;
     position: relative;
+    overflow:hidden;
 }
 
-.project-text {
-    background-color: aqua;
-    color: white;
-    width: 96%;
+ .project-text {
+    background-color: #ccffff;
+    width: 65%;
     height: 50px;
-    /* padding: 2%; */
-    margin: 2%;
-    text-align: center;
+    margin: 10%; 
+    padding-left: 10%;
+    text-align: left;
     line-height: 50px;
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
 }
 
 .project-list {
-    width: 85%;
+    width: 75%;
     margin: 3%;
+}
+
+.btmrow {
+    margin-bottom: 5%;
 }
