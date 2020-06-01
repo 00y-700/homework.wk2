@@ -37,8 +37,7 @@ h1 {
 
 #pic {
     float: left;
-    /* margin: 10px;
-    margin-bottom: 20px; */
+    padding: 5%;
 }
 
 
@@ -61,6 +60,7 @@ footer {
 .responsive {
     width: 100%;
     height: auto;
+    padding: 2%
 }
 
 .photo {
@@ -70,4 +70,34 @@ footer {
 
 .box {
     min-width: 400px;
+}
+
+.nav-link:hover {
+    color: #ccffff;
+}
+
+.project-image {
+    width: 96%;
+    height: 300px;
+    /* border: solid 1px pink; */
+    margin: 2%;
+    position: relative;
+}
+
+.project-text {
+    background-color: aqua;
+    color: white;
+    width: 96%;
+    height: 50px;
+    /* padding: 2%; */
+    margin: 2%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.project-list {
+    width: 85%;
+    margin: 3%;
 }
